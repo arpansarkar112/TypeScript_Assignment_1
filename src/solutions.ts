@@ -4,4 +4,6 @@ function filterEvenNumbers(arr:number[]):number[] {
 }
 
 //Problem 2
-
+function reverseString(str:string):string {
+    return [...str].reverse().join('')
+}
