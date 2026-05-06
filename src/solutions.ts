@@ -20,3 +20,17 @@ function checkType(value: StringOrNumber): string {
 function getProperty <O, K extends keyof O> (obj: O, key:K) {
     return obj[key]
 }
+
+//Problem 5
+interface Book{
+    title: string
+    author: string
+    publishedYear: number
+}
+
+function toggleReadStatus (read:Book) {
+    return {
+        ...read,
+        isRead: true
+    }
+}
