@@ -7,3 +7,11 @@ function filterEvenNumbers(arr:number[]):number[] {
 function reverseString(str:string):string {
     return [...str].reverse().join('')
 }
+
+//Problem 3
+type StringOrNumber = string | number
+
+function checkType(value: StringOrNumber): string {
+    if (typeof value === 'string') return 'String'
+    else return 'Number'
+}
