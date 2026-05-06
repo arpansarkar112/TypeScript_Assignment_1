@@ -15,3 +15,8 @@ function checkType(value: StringOrNumber): string {
     if (typeof value === 'string') return 'String'
     else return 'Number'
 }
+
+//Problem 4
+function getProperty <O, K extends keyof O> (obj: O, key:K) {
+    return obj[key]
+}
