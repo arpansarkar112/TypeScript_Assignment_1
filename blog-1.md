@@ -38,7 +38,8 @@ console.log(data.toUpperCase());
 
 This produces a TypeScript error because the compiler does not know whether data is actually a string. That's why, `unknown` is a safer choice. 
 
-##Type Narrowing
+## Type Narrowing
+
 Type narrowing is the process of refining a broad, unpredictable type (like `unknown` or `string | number`) into a more specific, safe type using logical checks. Once TypeScript recognizes these runtime checks, it "narrows" the type inside that specific code block. We can narrow types using the `typeof` operator, `instanceof`, or custom type guard functions. Here is an example of using type narrowing. 
 
 ```typescript
