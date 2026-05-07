@@ -1,4 +1,4 @@
-# B7A1
+# TypeScript Assignment 1 [B7A1]
 
 ## Assignment: Advanced Problem Solving with TypeScript & OOP
 
